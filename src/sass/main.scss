@@ -344,3 +344,28 @@ img.img-fluid.poster-img {
     }
   }
 }
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  nav.pagination-items {
+    display: flex;
+    justify-content: center;
+    .page-numbers {
+      font-size: 21px;
+      padding: 6px 9px;
+      min-width: 50px;
+      text-align: center;
+      text-decoration: none;
+      font-weight: 700;
+      background: #212529;
+      border: 1px solid #212529;
+      color: white;
+      transition: 0.5s;
+      &.current,
+      &:hover {
+        background: white;
+        color: #212529;
+      }
+    }
+  }
+}
